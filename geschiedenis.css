@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(/Miravet-vista-panoramica.jpg);
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  margin-top: 0.1em;
+  padding-top: 0.1em;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1em;
+  font-size: 7em;
+}
+
+ ul {
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: large; 
+  transition: 0.2 ease-out;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+  }
+  
+  li {
+    display:inline;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(175, 175, 175);
+  }
+  
+  .active {
+    background-color: rgb(128, 128, 128);
+  }
+p{ 
+  margin-right: 50%;
+font-size: 1.5em;
+color: white  ;
+
+}
